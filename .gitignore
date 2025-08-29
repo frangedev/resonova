@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.ogg
+*.m4a
+*.wma
+
+# Output directories
+outputs/
+results/
+exports/
+
+# Data directories
+data/raw/
+data/processed/
+data/models/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model weights and checkpoints
+checkpoints/
+weights/
+models/saved/
+*.ckpt
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+tensorboard_logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+.prof
+*.prof
+
+# Audio analysis cache
+cache/
+*.cache
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+
+# Logo file (add your actual logo image here)
+# resonova_logo.png
