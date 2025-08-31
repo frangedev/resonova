@@ -1,0 +1,70 @@
+{
+  "name": "custom_edm_mastering",
+  "description": "Custom EDM mastering chain with aggressive compression and enhancement",
+  "effects": [
+    {
+      "effect": "spectral_filter",
+      "params": {
+        "filter_type": "highpass",
+        "low_freq": 30,
+        "high_freq": 18000
+      }
+    },
+    {
+      "effect": "multiband_compressor",
+      "params": {
+        "low_threshold": 0.5,
+        "mid_threshold": 0.4,
+        "high_threshold": 0.3,
+        "low_ratio": 5.0,
+        "mid_ratio": 6.0,
+        "high_ratio": 7.0
+      }
+    },
+    {
+      "effect": "harmonic_enhancer",
+      "params": {
+        "amount": 0.5,
+        "even_harmonics": true,
+        "odd_harmonics": true
+      }
+    },
+    {
+      "effect": "exciter",
+      "params": {
+        "amount": 0.4,
+        "frequency": 10000
+      }
+    },
+    {
+      "effect": "stereo_enhancer",
+      "params": {
+        "width": 0.6,
+        "phase_shift": 15.0,
+        "frequency_split": 1000
+      }
+    },
+    {
+      "effect": "transient_shaper",
+      "params": {
+        "attack": 0.8,
+        "sustain": 0.6,
+        "sensitivity": 0.7
+      }
+    },
+    {
+      "effect": "saturation",
+      "params": {
+        "drive": 2.0,
+        "type": "tube"
+      }
+    },
+    {
+      "effect": "enhance_audio",
+      "params": {
+        "enhancement_type": "brightness",
+        "amount": 0.3
+      }
+    }
+  ]
+}
